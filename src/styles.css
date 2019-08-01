@@ -1,0 +1,25 @@
+.carousel img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel {
+  box-shadow: inset 0px 0px 3px 0px #0004;
+  width: 200px;
+  margin: auto;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.carousel > div {
+  display: flex;
+  transition: all 0.3s;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
